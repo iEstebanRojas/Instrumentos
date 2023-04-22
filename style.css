@@ -1,0 +1,115 @@
+/* index.html */
+.encabezado {
+     position: relative;
+}
+  
+.ftitulo {
+    display: absolute;
+    width: 100%;
+    height: auto;
+}
+  
+.title {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: aliceblue;
+    width: 90px;
+    font-style: initial;
+}
+
+.t1 {
+
+    text-align: center;
+    font-size: small;
+    width: 100%;
+}
+
+.v1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.ffinal {
+    width: 100px;
+}
+
+/* Inicio lista no ordenada */
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+  }
+  
+.nav1 {
+    border: 1px solid black;
+    padding: 12px;
+  }
+
+
+.l1a {
+    
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 5px;
+
+}
+
+.l1b {
+    
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+.l1c {
+    
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 10px;
+    
+}
+
+.l1d {
+    
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 10px;
+    
+}
+
+.l1e {
+    
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 10px;
+    
+}
+
+/* Fin lista no ordenada*/
+
+.tit1 {
+    display: absolute;
+    width: 100%;
+    height: auto;
+
+}
+
+/* Sección nivel.html*/
+
+.ftitulo {
+    display: absolute;
+    width: 100%;
+    height: auto;
+}
+
+/* Valvulas */
+
+.valvulaimg {
+    display: absolute;
+    width: 20%;
+    height: auto;
+}
