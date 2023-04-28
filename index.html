@@ -1,104 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instrumentación Industrial</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    
+
 </head>
 
 <body>
 
-<header>
+    <div id="index-contenedor" class="container">
 
-    <!-- Encabezado de la pagina -->
-
-    <div class="encabezado" style="position: relative;">
-
-        <img src="img/f1.jpg" class="ftitulo" alt="imagendefondo">
-
-        <div class="title">INSTRUMENTACIÓN INDUSTRIAL</div> 
-
-    </div>
-    <hr>
-    <div class="parrafoindex1">
-
-        <p class="t1">
+        <header>
             
-        La instrumentación industrial es una disciplina de la ingeniería que se enfoca en la medición y control de procesos industriales en tiempo real. Los sistemas de instrumentación industrial se emplean para supervisar y regular variables tales como la temperatura, la presión, el caudal y la humedad en la producción de bienes y servicios.
+            <div class="encabezado">
+                <p class="text-title">INSTRUMENTACIÓN INDUSTRIAL </p>
+            </div>
 
+        </header>
+
+        <nav-tabs class="navegacion">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Presión
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La presión es una medida fundamental de los fluidos. Se utiliza en muchas aplicaciones en ingeniería y ciencias físicas. Se mide en diversas unidades, como pascales, bares o libras por pulgada cuadrada. <a href="../pages/presion.html">IR</a>.</div>
+                    <img class="tab-img-presion" src="../img/presion/manometro1.jpg" alt="manoemtro1">
+                  </div>
+
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Temperatura
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La temperatura es una medida fundamental de los fluidos y los sólidos. Se utiliza en muchas aplicaciones en ingeniería y ciencias físicas y biológicas. Se mide en diversas unidades, como Celsius, Fahrenheit o Kelvin. <a href="../pages/temperatura.html">IR</a>.
+
+                    <img class="tab-img-temperatura" src="../img/temperatura/termometro.jpg" alt="termometro">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Nivel
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">El nivel es una medida de la altura o profundidad de un fluido o sólido en relación a una referencia. Es importante en aplicaciones como la medición de líquido en un tanque. Se mide con dispositivos como sensores de presión, flotadores o escalas. <a href="../pages/nivel.html">IR</a>.
+
+                    <img class="tab-img-nivel" src="../img/nivel/lit.jpg" alt="nivel">    
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Caudal
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">El caudal es una medida de la cantidad de fluido que fluye por unidad de tiempo. Es importante en aplicaciones como la medición del flujo de agua en una tubería. Se mide con dispositivos como medidores de flujo, orificios o tubos de Pitot. <a href="../pages/caudal.html">IR</a>.
+                        <img class="tab-img-caudal" src="../img/caudal/caudalimetro1.jpg" alt="caudalimetro1">
+
+                      </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Válvulas
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Una válvula regula el flujo de un fluido o un gas en un sistema. Puede controlar la presión, el caudal, la temperatura y otras variables. Están disponibles en una variedad de diseños, materiales y tamaños para satisfacer necesidades específicas en diversas aplicaciones. <a href="../pages/valvulas.html">IR</a>.
+                        
+                        <img class=".tab-img-valvula" src="../img/valvula/psv1.jpg" alt="psv">    
+
+                    </div>
+                </div>
+
+
+
+                </div>
+                  
+              </div>
+        </nav-tabs>
+
+        <p class="main-item1">
+            
+            Bienvenidos a nuestra plataforma dedicada a la metrología, la ciencia de la medición y su aplicación en diferentes ámbitos industriales. En esta página web, encontrarás una variedad de información detallada sobre los principales instrumentos de medición utilizados en la industria, su funcionamiento, y su importancia en la obtención de mediciones precisas y confiables.
+    
+        </p> 
+    
+        <p class="main-item2">
+            La sección de <strong>Instrumentos Medidores de Presión</strong> te proporcionará una amplia gama de información sobre los diferentes métodos y dispositivos utilizados para medir la presión en diversos sistemas y procesos. Aprenderás sobre manómetros, transductores de presión, medidores de presión diferencial, y otros instrumentos similares.
+        </p>
+           
+        <p class="main-item3">
+            La sección de <strong>Instrumentos Medidores de Temperatura</strong> te brindará una comprensión completa de los diversos instrumentos utilizados para medir la temperatura. Descubrirás los principios detrás de los termómetros, termopares, termómetros infrarrojos, y otros dispositivos similares, y cómo se pueden aplicar en diferentes situaciones industriales.
+        </p>
+    
+        <p class="main-item4">
+            La sección de  <strong>Instrumentos Medidores de Nivel</strong> cubrirá los tipos de medidores de nivel, como los indicadores de burbuja, transmisores, capacitivos, ultrasónicos, magnéticos, radar, entre otros. Te brindaremos información sobre sus características, aplicaciones y limitaciones, para que puedas seleccionar el más adecuado.
+    
+        </p>    
+    
+        <p class="main-item5">
+            La sección de <strong>Instrumentos Medidores de Caudal</strong> te mostrará los distintos medidores de flujo utilizados en la industria. Desde medidores de área variable hasta medidores de desplazamiento positivo, aprenderás los fundamentos detrás de cada uno de estos dispositivos y cómo se pueden aplicar para medir diferentes tipos de líquidos y gases.
+        </p>
+            
+        <p class="main-item6">
+            Podrás aprender sobre los diferentes tipos de <strong>Válvulas</strong> utilizadas en la industria para regular el flujo de líquidos y gases y mantener la seguridad en los procesos. Desde válvulas de globo hasta válvulas de compuerta, nuestra información detallada te ayudará a comprender cómo funcionan estas herramientas esenciales y cómo se aplican en la industria.      
+    
         </p>
 
-        <p class="t1">
-        Los instrumentos de medición se utilizan para capturar y registrar información acerca del proceso en cuestión, y los sistemas de control se usan para ajustar los parámetros según las exigencias específicas del proceso. La instrumentación industrial es crucial para asegurar la seguridad, la eficacia y la calidad en la producción industrial.
+        <p class="final-introduccion">
+            Para finalizar, queremos destacar que nuestra página web sobre metrología proporciona una información exhaustiva y precisa acerca de los fundamentos de los instrumentos de medición más utilizados en la industria. Esperamos que la información que encuentres aquí sea de gran utilidad en tu trabajo y estudios, y que contribuya a mejorar tu comprensión de la ciencia de la medición y su aplicación en la industria. Te invitamos a explorar nuestra página web y descubrir todo lo que tenemos para ofrecer.
         
         </p>
-        
-        <p class="t1">
-        Algunos ejemplos de instrumentación industrial son sensores de temperatura, medidores de caudal, indicadores de presión y controladores de procesos. Estos instrumentos se aplican en diversas industrias, como la manufactura, la petroquímica, la energía, la alimentación y la farmacéutica.
-        </p>   
-        
+
+        <aside class="publicidad">
+
+          <img class="publ" src="../publi1.jpg" alt="publicidad1">
+          <hr>
+          <img class="publ" src="../publi2.jpg" alt="publicidad2">
+          <hr>
+          <img class="publ" src="../publi3.jpg" alt="publicidad3">
+          <hr>
+          <img class="publ" src="../publi4.jpg" alt="publicidad4">
+
+        </aside>    
+
+
+        <iframe class="video-index" width="100%" height="415" src="https://www.youtube.com/embed/01bpyyMam-0" title="¿Qué es la metrología?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <section class="section-1">
+          <form id="formulario" onsubmit="enviarComentario(event)">
+            
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="comentario">Celular:</label>
+            <input type="celular" id="celular" name="celular" required><br><br>
+
+          </form>
+    
+        </section>
+
+        <section class="section-2">
+          <form id="formulario" onsubmit="enviarComentario(event)">
+
+            <label for="comentario">Comentario:</label>
+            <hr>
+            <textarea id="comentario" name="comentario" required></textarea><br><br>
+            <input type="submit" value="Enviar comentario">
+
+          </form>
+        </section>
+
+        <section class="section-3">
+          <div class="section-3-imagen-contenedor">
+            <img class="section-3-imagen" src="img/ok.png" alt="ok">
+          </div>
+          <div class="section-3-imagen-contenedor">
+            <img class="section-3-imagen" src="img/ok.png" alt="ok">
+          </div>
+        </section>
+
+        <footer> 
+          <div class="footer-container">
+            <a href="whatsapp.com"><img class="icono-whatsapp" src="../img/footer/whatsapp.png"></a>
+            <a href="instagram.com"><img class="icono-instagram" src="../img/footer/instagram.png"></a>
+            <a href="linkedin.com"><img class="icono-linkedin" src="../img/footer/linkedin.png"></a>
+          </div> 
+        </footer>
+
 
     </div>
-
-    <hr>
-</header>
-
-<iframe class="v1" width="560" height="315" src="https://www.youtube.com/embed/NJ01evfyV90" title="YTv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<hr>
-    <!-- Inicio de la lista no ordenada -->
-<nav>   
-	<ul class="nav1">
-       
-		<li class="l1a"><a href="pages/presion.html">Presión </a></li>
-		<li class="l1b"><a href="pages/temperatura.html">Temperatura </a></li>
-		<li class="l1c"><a href="pages/nivel.html">Nivel </a></li>
-		<li class="l1d"><a href="pages/caudal.html">Caudal </a></li>
-		<li class="l1e"><a href="pages/valvulas.html">Válvulas </a></li>
-      
-	</ul>
-
-    <img src="img/f2.jpg" class="ffinal" alt="imagen2">
-    <p class="t1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam numquam itaque nostrum nam aperiam distinctio fugit perferendis et temporibus quibusdam ad modi optio quo quasi nihil sit, rerum quisquam quam?</p>
-
-</nav>
-    <!-- Fin de la lista no ordenada -->
-<hr>
-        <!-- Inicio del formulario -->
-    <section>
-        <h2>Formulario de Contacto</h2> 
-
-        <form> 
-
-            <ol>
-                <li><label for="Contacto">Contacto:</label>
-                <input type="text" id="contacto" name="contacto"></li>
-
-                <li><label for="Celular">Celular:</label>
-                <input type="text" id="celular" name="celular"></li>
-                 
-                <li><label for="CorreoElectrónico">Correo Electrónico:</label>
-                <input type="text" id="CorreoElectrónico" name="CorreoElectrónico"></li>
-
-            </ol>
-            <img src="img/ok.png" alt="ok"> 
-
-        </form>
-
-        
-
-    </section>
-
-        <!-- Fin del formulario -->
-<hr>
-
-<footer> 
-            <a href="https://www.linkedin.com/">Linkedin</a> 
-            <a href="https://www.whatsapp.com/">Whatsapp</a> 
-            <a href="https://www.instagram.com/">Instagram</a> 
-</footer>
-
+    
 </body>
+
 </html>
+
+
+
+
+
+
+
+  
