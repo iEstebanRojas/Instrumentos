@@ -66,6 +66,7 @@
   grid-gap: 5px;
 }
 
+
 .container-caudal {
   grid-template-areas:
     "header header header header"
@@ -83,8 +84,19 @@
     "header header header header"
     "nav-tabs main-item1 main-item2 aside"
     "nav-tabs main-item1 main-item2 aside"
-    "nav-tabs main-item3 main-item3 aside"
-    "nav-tabs main-item4 main-item4 aside"
+    "nav-tabs main-item4 main-item3 aside"
+    "nav-tabs main-item4 main-item3 aside"
+    "section-1 section-2 section-3 section-3"
+    "footer footer footer footer";
+}
+
+.container-nivel{
+  grid-template-areas:
+    "header header header header"
+    "nav-tabs main-item1 main-item3 aside"
+    "nav-tabs main-item1 main-item3 aside"
+    "nav-tabs main-item2 main-item3 aside"
+    "nav-tabs main-item2 main-item3 aside"
     "section-1 section-2 section-3 section-3"
     "footer footer footer footer";
 }
@@ -144,10 +156,10 @@ header{
 .section-temp3,
 .section-temp4 {
   border: 1px solid rgb(82, 81, 81);
-  max-width: 35vh;
+  max-width: 60%;
   object-fit: cover;
   display: flex;
-  max-height: 35vh;
+  max-height: 60%;
   margin: 0 auto;
   
 }
@@ -214,7 +226,8 @@ header{
 
 .video-presion,
 .video-temperatura,
-.video-nivel {
+.video-nivel,
+.video-main {
   grid-area: main-item2 main-item4;
   display: flex;
   justify-content: center;
@@ -245,8 +258,9 @@ textarea {
 }
 
 .section-3 {
+
   grid-area: section-3;
-  grid-column: 3 / 4;
+  grid-column: 3 / 5;
   display: flex;
   justify-content: space-between;
   padding: 5px;
