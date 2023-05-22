@@ -206,6 +206,7 @@
 .video-presion,
 .video-temperatura,
 .video-nivel,
+.video-caudal,
 .video-main {
   grid-area: main-item1 main-item2 main-item3 main-item4;
   display: flex;
