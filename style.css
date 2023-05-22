@@ -5,6 +5,10 @@
   border-bottom: 1px solid #ccc;
   width: 100%; 
   box-sizing: border-box;
+
+  position: fixed; /* Agregado */
+  top: 0; /* Agregado */
+  z-index: 999; /* Agregado */
 }
 
 .titulo {
@@ -24,6 +28,11 @@
   color: #333;
   white-space: nowrap;
 
+}
+
+.contenido {
+  margin-top: 35px;
+  padding: 20px;
 }
 
 
@@ -97,7 +106,6 @@
   grid-gap: 5px;
 }
 
-
 .container-caudal {
   grid-template-areas:
     "header header header header"
@@ -150,11 +158,10 @@
 .tab-img-caudal,
 .tab-img-valvula {
   border: 1px solid rgb(82, 81, 81);
-  max-width: 97%;
+  max-width: 100%;
   object-fit: cover;
   display: block;
   max-height: 100%;
-  margin: 0 auto;
 }
 
 .section-lit1,
@@ -185,6 +192,34 @@
   width: 100%;
   height: auto;
 }
+
+/* VIDEO */
+
+.video-index{
+  grid-area: video-index;
+  display: flex;
+  justify-content: center;
+}
+
+/* VIDEO */
+
+.video-presion,
+.video-temperatura,
+.video-nivel,
+.video-main {
+  grid-area: main-item1 main-item2 main-item3 main-item4;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.video-presion{
+  margin-top: 35px;
+  padding: 20px;
+}
+
+/* VIDEO*/
 
 /* GRIDS */
 
@@ -222,28 +257,7 @@
 
 /* GRIDS */
 
-/* VIDEO */
 
-.video-index{
-  grid-area: video-index;
-  display: flex;
-  justify-content: center;
-}
-
-/* VIDEO */
-
-.video-presion,
-.video-temperatura,
-.video-nivel,
-.video-main {
-  grid-area: main-item2 main-item4;
-  display: flex;
-  justify-content: center;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* VIDEO*/
 
 .section-1{
   grid-area: section-1;
