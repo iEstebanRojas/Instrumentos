@@ -1,3 +1,7 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 /* HEADER */
 .header {
   grid-area: header;
@@ -106,7 +110,6 @@
 }
 
 .container-temperatura{
-
   grid-template-areas:
     "header header header header"
     "nav-tabs main-item1 main-item2 aside"
@@ -149,8 +152,7 @@
 }
 
 .hombrestrabajando {
-  grid-area: main-item1 main-item2 main-item3;
-  
+  grid-area: main-item1 main-item2 main-item3; 
 }
 
 /* TABS */
@@ -222,7 +224,6 @@
 }
 
 .video-presion{
-
   margin-top: 35px;
   padding: 5px;
 }
