@@ -5,8 +5,9 @@ $main-item4: main-item4;
 $main-item5: main-item5;
 $main-item6: main-item6;
 $final-introduccion: final-introduccion;
-$publicidad: aside;
-$navegacion: nav-tabs;
+$publicidad: publicidad;
+$navegacion: navegacion;
+$hombrestrabajando: main-item1;
 
 .#{$main-item1} {
   grid-area: #{$main-item1};
@@ -41,5 +42,9 @@ $navegacion: nav-tabs;
 }
 
 .#{$navegacion} {
-  grid-area: nav-tabs;
+  grid-area: navegacion;
+}
+
+.#{hombrestrabajando} {
+    grid-area: main-item1;
 }
