@@ -1,0 +1,45 @@
+$main-item1: main-item1;
+$main-item2: main-item2;
+$main-item3: main-item3;
+$main-item4: main-item4;
+$main-item5: main-item5;
+$main-item6: main-item6;
+$final-introduccion: final-introduccion;
+$publicidad: aside;
+$navegacion: nav-tabs;
+
+.#{$main-item1} {
+  grid-area: #{$main-item1};
+}
+
+.#{$main-item2} {
+  grid-area: #{$main-item2};
+}
+
+.#{$main-item3} {
+  grid-area: #{$main-item3};
+}
+
+.#{$main-item4} {
+  grid-area: #{$main-item4};
+}
+
+.#{$main-item5} {
+  grid-area: #{$main-item5};
+}
+
+.#{$main-item6} {
+  grid-area: #{$main-item6};
+}
+
+.#{$final-introduccion} {
+  grid-area: #{$final-introduccion};
+}
+
+.#{$publicidad} {
+  grid-area: #{$publicidad};
+}
+
+.#{$navegacion} {
+  grid-area: nav-tabs;
+}
